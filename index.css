@@ -1,0 +1,210 @@
+header {
+    width: 50%;
+    margin: auto;
+    height: 150px;
+}
+#titulo {
+    display: flex;
+    height: 40%;
+    flex-direction: row;
+    justify-content:center;
+    padding-top: 6%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 30%;
+}
+
+#cuadro_busqueda{
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    padding-left: 10%;
+}
+
+img{
+    width: 70px;
+}
+
+h1{
+    font-weight: 150;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+h2:hover {
+    color: orange;
+}
+
+#subtitulos{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h2 {
+    padding: 2%;
+}
+
+h4 {
+    padding-left: 90%;
+    font-weight: bold;
+}
+
+h5 {
+    padding-left: 40%;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: x-large;
+    margin: 0;
+    font-weight: bold;
+    padding-left: 25%;
+}
+
+h7 {
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-bottom: 1%;
+
+}
+
+h8 {
+    font-size: xx-large;
+
+}
+
+h9 {
+    font-size: x-large;
+    padding-left: 13%;
+
+}
+
+h10 {
+    font-size: x-large;
+    padding: 18%;
+
+}
+
+h11 {
+    font-size: x-large;
+
+}
+
+
+#texto_subfoto {
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#texto_subfoto2 {
+    font-size: x-large;
+    font-weight: bolder;
+    flex-direction: row;
+
+}
+
+
+#carrousel {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+}
+
+#carrousel>img{
+    width:50%
+}
+
+#botellas{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    padding-left: 25%;
+    padding-bottom: 5%;
+}
+
+.foto_botellas:hover {
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+}
+
+
+#botellas2 {
+    display: flex;
+    flex-direction: row;
+    justify-items: right;
+    justify-content: right;
+    padding-left: 30%;
+}
+
+#botellas3{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    padding-left: 15%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+#cocteles {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+article>div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#preparaciones {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    background-image: url(./logos/johnnie_walker_amarillo.svg);
+    background-repeat: repeat;
+    align-items: center;
+}
+
+#emblema {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0%;
+}
+
+#pie{
+    display: flex;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 50px;
+    }
+    .foto_botellas {
+        height: 50px;
+    }
+    .cocteles {
+        height: 50px;
+    }
+    h1{
+        font-size: small;
+    }
+    h2{
+        font-size: small;
+    }
+
+}
